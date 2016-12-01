@@ -13,7 +13,6 @@ Phpmyadmin Details:
 
 URL: https://e-residency-aman-raikwar.c9users.io/phpmyadmin
 Command phpmyadmin-ctl install
-Username: aman_raikwar
 
 
 PHP 7.0
