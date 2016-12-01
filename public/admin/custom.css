@@ -1,0 +1,11 @@
+.error-message {color: red;}
+form {display: inline;}
+
+.pagination {float: right;margin: 0;}
+
+.total_records {margin: 0;line-height: 30px;}
+
+.box-header>.box-tools {top: 3px;min-width: 250px;}
+
+.display-picture {max-width:200px;max-height:200px;}
+.display-picture-thumbnail {max-width:80px;max-height:80px;}

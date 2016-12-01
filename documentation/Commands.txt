@@ -1,0 +1,29 @@
+
+
+sudo composer global require "laravel/installer"
+sudo composer create-project --prefer-dist laravel/laravel blog
+sudo chmod 777 -R blog/
+php artisan serve
+
+php artisan make:migration create_category_table
+php artisan migrate
+php artisan make:controller CategoryController --resource
+php artisan make:model Category
+php artisan migrate
+sudo composer require illuminate/html
+php artisan route:list
+
+
+php artisan vendor:publish
+
+Copied Directory [/vendor/laravel/framework/src/Illuminate/Notifications/resources/views] To [/resources/views/vendor/notifications]
+Copied Directory [/vendor/laravel/framework/src/Illuminate/Pagination/resources/views] To [/resources/views/vendor/pagination]
+Publishing complete for tag []!
+
+
+
+php artisan make:seed CategoriesTableSeeder
+php artisan migrate --seed
+
+php artisan migrate:refresh
+php artisan migrate --seed

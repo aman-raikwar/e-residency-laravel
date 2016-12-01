@@ -1,0 +1,8 @@
+.button.button-primary.button-flat:hover {
+  background: #fff;
+  color: #3797dd;
+  border: 1px solid #3797dd;
+}
+.button.button-primary.button-flat {
+  border: 1px solid #3797dd;
+}
